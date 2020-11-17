@@ -1,0 +1,51 @@
+#logo{
+    width: 30px;
+    height: 30px;
+}
+
+.slideImg{
+    height: 580px;
+}
+
+.cover{
+    width: 90%;
+}
+
+/*
+    CUSTOM STYLES
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-dark, footer{
+    background-color: black;
+}
+
+.navbar{
+    box-shadow: 10px 0px 10px black;
+}
+
+.col > a{
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+.col > a:hover{
+    color: #6B6B6B;
+    text-decoration: none;
+}
+
+.col > img{
+    border-radius: 8px;;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+#url{
+    color: #fff;
+}
